@@ -1,5 +1,5 @@
 module SubstitutionCipher
-  module Caesar
+  module Caesar # rubocop:disable Style/Documentation
     # Encrypts document using key
     # Arguments:
     #   document: String
@@ -19,7 +19,7 @@ module SubstitutionCipher
     end
   end
 
-  module Permutation
+  module Permutation # rubocop:disable Style/Documentation
     # Encrypts document using key
     # Arguments:
     #   document: String
